@@ -2,23 +2,19 @@
 title: COVID19 Animation - Deaths and Doubling Period for United States States
 author: Rahul Chaudhary
 date: '2020-04-19'
-slug: 
-categories: [gganimate, covid19]
-tags:
-subtitle: 
-summary: ''
-authors: []
-#lastmod: '2020-04-19T15:19:44-07:00'
+categories:
+  - covid19
+  - gganimate
 featured: no
-image:
+image: 
   caption: ''
   focal_point: ''
   preview_only: no
-projects: []
+image_preview: '/blog/2020-04-19-test_files/Screen Shot 2020-04-18 at 4.24.47 PM.png'  
 ---
 
 
-Lately I've been exploring different ways to explore COVID19 data and also trying my hand at gganimate package. I wanted to see if there's a way to track how different states are faring with regards to mitigating the outbreak using doubling period and this animation, I feel, does a good job of tracking that.
+Lately, I've been exploring different ways to explore COVID19 data and also trying my hand at gganimate package. I wanted to see if there's a way to track how different states are faring with regards to mitigating the outbreak using doubling period and this animation, I feel, does a good job of tracking that.
 
 ![](/blog/2020-04-19-test_files/usa_april18.gif)
 
