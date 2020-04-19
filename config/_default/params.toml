@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "A data science blog by Julia Silge"
+description = "A data science blog by Rahul Chaudhary"
 
 ############################
 ## Site Features
@@ -91,7 +91,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/juliasilge"},
+  {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/rahulxc"},
   {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
@@ -105,7 +105,7 @@ contact_links = [
 sharing_image = "sharon-mccutcheon-62vi3TG5EDg-unsplash_small.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "juliasilge"
+twitter = "rahulxc"
 
 ############################
 ## Regional Settings
