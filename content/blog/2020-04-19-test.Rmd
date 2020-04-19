@@ -1,0 +1,65 @@
+---
+title: COVID19 Animation - Deaths and Doubling Period for United States States
+author: Rahul Chaudhary
+date: '2020-04-19'
+slug: 
+categories: [gganimate, covid19]
+tags:
+subtitle: 
+summary: ''
+authors: []
+#lastmod: '2020-04-19T15:19:44-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+Lately I've been exploring different ways to explore COVID19 data and also trying my hand at gganimate package. I wanted to see if there's a way to track how different states are faring with regards to mitigating the outbreak using doubling period and this animation, I feel, does a good job of tracking that.
+
+![](/blog/2020-04-19-test_files/usa_april18.gif)
+
+From the animation - it can be seen that WA is the only state to considerably slow down the death growth rate. Having said that, it is also imperative to point out that most US states are now also improving.
+
+A snapshot on 4-17 - ![](/blog/2020-04-19-test_files/Screen Shot 2020-04-18 at 4.24.47 PM.png)
+
+
+The various zones are based on my subjective interpretation of the data and I want to be clear that I am not an expert in epidemiology. I just thought it would be interesting to plot the data in this way.
+
+Data Source - https://github.com/nytimes/covid-19-data
+
+Tools Used - R/gganimate
+
+**Other FAQs**
+
+> Why are you using log scale instead of linear scale?
+
+John Murdoch from FT's take on this https://twitter.com/jburnmurdoch/status/1244380095164420101?s=20
+
+
+> Will you share the code?
+
+Yes I will soon. The code is a mess in a R markdown notebook and it’ll take me considerable time to make it readable
+
+
+> How is doubling period calculated?
+
+Doubling Period/Time calculated on 5 day rolling average of Total Cases based on https://en.wikipedia.org/wiki/Doubling_time
+
+
+> Why can’t I see my own state in this?
+
+Probably because it hasn’t registered 20 deaths till now
+
+
+> Why do some states appear in the green zone but suddenly move to red?
+
+It’s because they were initially slow to pick up reported deaths but then it accumulated quickly-- which is why they moved rapidly to the red zones
+
+
+> Why are you using doubling period instead of Perc Change?
+
+I think Doubling Period is more intuitive than comparing between let’s say 33% and 20%

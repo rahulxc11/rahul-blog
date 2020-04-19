@@ -1,0 +1,53 @@
+---
+title: COVID19 Animation - Deaths and Doubling Period for United States States
+author: Rahul Chaudhary
+date: '2020-04-19'
+slug: 
+categories: [gganimate, covid19]
+tags:
+subtitle: 
+summary: ''
+authors: []
+#lastmod: '2020-04-19T15:19:44-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Lately I’ve been exploring different ways to explore COVID19 data and also trying my hand at gganimate package. I wanted to see if there’s a way to track how different states are faring with regards to mitigating the outbreak using doubling period and this animation, I feel, does a good job of tracking that.</p>
+<p><img src="/blog/2020-04-19-test_files/usa_april18.gif" /></p>
+<p>From the animation - it can be seen that WA is the only state to considerably slow down the death growth rate. Having said that, it is also imperative to point out that most US states are now also improving.</p>
+<p>A snapshot on 4-17 - <img src="/blog/2020-04-19-test_files/Screen%20Shot%202020-04-18%20at%204.24.47%20PM.png" /></p>
+<p>The various zones are based on my subjective interpretation of the data and I want to be clear that I am not an expert in epidemiology. I just thought it would be interesting to plot the data in this way.</p>
+<p>Data Source - <a href="https://github.com/nytimes/covid-19-data" class="uri">https://github.com/nytimes/covid-19-data</a></p>
+<p>Tools Used - R/gganimate</p>
+<p><strong>Other FAQs</strong></p>
+<blockquote>
+<p>Why are you using log scale instead of linear scale?</p>
+</blockquote>
+<p>John Murdoch from FT’s take on this <a href="https://twitter.com/jburnmurdoch/status/1244380095164420101?s=20" class="uri">https://twitter.com/jburnmurdoch/status/1244380095164420101?s=20</a></p>
+<blockquote>
+<p>Will you share the code?</p>
+</blockquote>
+<p>Yes I will soon. The code is a mess in a R markdown notebook and it’ll take me considerable time to make it readable</p>
+<blockquote>
+<p>How is doubling period calculated?</p>
+</blockquote>
+<p>Doubling Period/Time calculated on 5 day rolling average of Total Cases based on <a href="https://en.wikipedia.org/wiki/Doubling_time" class="uri">https://en.wikipedia.org/wiki/Doubling_time</a></p>
+<blockquote>
+<p>Why can’t I see my own state in this?</p>
+</blockquote>
+<p>Probably because it hasn’t registered 20 deaths till now</p>
+<blockquote>
+<p>Why do some states appear in the green zone but suddenly move to red?</p>
+</blockquote>
+<p>It’s because they were initially slow to pick up reported deaths but then it accumulated quickly– which is why they moved rapidly to the red zones</p>
+<blockquote>
+<p>Why are you using doubling period instead of Perc Change?</p>
+</blockquote>
+<p>I think Doubling Period is more intuitive than comparing between let’s say 33% and 20%</p>
