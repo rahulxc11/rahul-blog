@@ -1,75 +1,44 @@
 ---
-# Display name
-title: Nelson Bighetti
-
-# Username (this should match the folder name)
 authors:
 - admin
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations
+bio: I'm an international keynote speaker and a real-world practitioner focusing on data analysis    and machine learning practice. I love making beautiful charts and communicating about technical    topics with diverse audiences.
+email: ""
 organizations:
-- name: Stanford University
-  url: ""
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+- name: RStudio PBC
+  url: "https://rstudio.com/"
+role: Data Scientist & Software Engineer
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/juliasilge
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+  link: https://github.com/juliasilge
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/juliasilge
+- icon: stack-overflow
+  icon_pack: fab
+  link: https://stackoverflow.com/users/5468471/julia-silge
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/juliasilge/
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-3671-836X
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=lQBVIkkAAAAJ
+superuser: true
+title: Julia Silge
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is Julia Silge and I am a data scientist and software engineer at RStudio where I work on open source modeling tools. My last name is pronounced SILL-GHEE (two syllables, short `i`, hard `g`). I love making beautiful charts, the statistical programming language R, Jane Austen, black coffee, and red wine.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I studied physics and astronomy, finishing my PhD in 2005. I worked in academia (teaching and doing research) and ed tech before moving into data science and discovering R. I am both an international speaker and a real-world practitioner focusing on data analysis and machine learning practice. I wrote a book with [my collaborator Dave](http://varianceexplained.org/) about [text mining with R](http://amzn.to/2tZkmxG). You can find me on [Twitter](https://twitter.com/juliasilge) and [GitHub](https://github.com/juliasilge). 
+
+I live in Salt Lake City, UT, with my husband, three kids, and two cats.
+
+This blog is built with [blogdown](https://github.com/rstudio/blogdown) and [Hugo](https://gohugo.io/), and deployed using [Netlify](https://www.netlify.com/). My blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). Bokeh circles photo by [Sharon McCutcheon](https://unsplash.com/photos/62vi3TG5EDg) on Unsplash.
+
+If my blog has helped you, [you can buy me a coffee on Ko-fi!](https://ko-fi.com/U7U4WG9B) 
